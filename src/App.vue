@@ -4,7 +4,7 @@
 
     <b-container>
       <b-row>
-        <b-col cols="6" offset="3" class="pt-2">
+        <b-col cols="12" offset="0" offset-md="3" offset-lg="3" class="pt-2" sm='12' lg='6' md='10'>
           <Content
             v-if="questionList.length"
             :questions="questionList[index]"
